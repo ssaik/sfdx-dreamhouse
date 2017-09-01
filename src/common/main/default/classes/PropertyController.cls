@@ -18,8 +18,6 @@ public with sharing class PropertyController {
                       AND price__c >= :minPrice
                       AND price__c <= :maxPrice
                       ORDER BY price__c LIMIT 8 OFFSET :offset];
- 
-        
         return r;
     }
 
