@@ -5,6 +5,7 @@ public with sharing class PropertyController {
         Integer pageSize = 8;
         String key = '%' + searchKey + '%';
         Integer offset = ((Integer)pageNumber - 1) * pageSize;
+        
        
         PropertyPagedResult r =  new PropertyPagedResult();
         r.pageSize = pageSize;
