@@ -1,5 +1,5 @@
 public with sharing class PropertyController {
-    Broken!
+    
     // green
     @AuraEnabled
     public static PropertyPagedResult findAll(String searchKey, Decimal minPrice, Decimal maxPrice, Decimal pageNumber) {
