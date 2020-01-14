@@ -1,19 +1,12 @@
 {
-  "orgName": "Your Company",
-  "edition": "Developer",
-
-"settings": {
-      "orgPreferenceSettings": {
-          "networksEnabled": true      
-      },
-      "mobileSettings": {
-          "enableS1EncryptedStoragePref2": true
-      },
-      "omniChannelSettings": {
-          "enableOmniChannel": true
-      },
-      "caseSettings": {
-          "systemUserEmail": "support@acme.com"
-      }
-  }
+     "orgName": "Your Company",
+     "edition": "Developer",
+     "workitem__c": "W-12345678",
+     "release__c": "June 2018 pilot",
+     
+     "settings": {
+         "omniChannelSettings": {
+              "enableOmniChannel": true
+     }
+           }
 }
